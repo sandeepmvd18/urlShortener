@@ -28,7 +28,7 @@ def shorten_url(long_url, access_token):
         return None
 def main():
     long_url = input("Enter the long URL: ")
-    access_token = "8cf1525ecbc098261868c958141f5588aeb89235"
+    access_token = "<add_yout_token>"
     short_url = shorten_url(long_url, access_token)
     if short_url:
         print(f"Shortened URL: {short_url}")
